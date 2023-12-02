@@ -1,0 +1,13 @@
+button:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+/* Hover ante emo dhani medhaki vasthe mouse styling maridhi */
+/* active ante emo button  ni click chesthe css styling maridhi */
+button:active{
+    background-color: greenyellow;
+}
+
+input:focus{
+    background-color: pink;
+}

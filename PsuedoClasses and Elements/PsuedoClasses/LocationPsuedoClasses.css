@@ -1,0 +1,12 @@
+a:link{
+    color: plum;
+}
+/* link lo em ayyidhi ante oka vela link click cheyyakapothe akkada vunna css properties apply chesukuntadhi okavela click chesi vunte munde inherit cheusokodhu */
+/* In case click chesina link ayina edhi ayina kuda css properties ni inherit chesukovali ante any-link ni use cheyyali */
+/* Adhe already visit ayina link ki properties inherit cehyyali ante visisted anna dahnni use cheyyali */
+a:any-link{
+    color: purple;
+}
+a:visited{
+color: green;
+}

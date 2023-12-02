@@ -1,0 +1,6 @@
+p {
+  color: red;
+}
+div div p {
+  background-color: white;
+}

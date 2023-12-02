@@ -1,0 +1,24 @@
+h1::first-line{
+    color: purple;
+    background-color: rgb(232, 236, 141);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+/* Targetting first line of the h1 tag. Only applied to blocklevel elements */
+
+h3::first-letter{
+    color: red;
+    background-color: rgb(232, 236, 141);
+    letter-spacing: 6px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Targetting first letter of the h1 tag */
+
+.container p::first-letter{
+    color: blue;
+    background-color: rgb(232, 236, 141);
+    letter-spacing: 6px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
